@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/liao961120/ntuthesis.svg?branch=master)](https://travis-ci.org/liao961120/ntuthesis) [![Support R Version](https://img.shields.io/badge/R-≥%203.4.0-blue.svg)](https://cran.r-project.org/) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
+這是基於liao961120/ntuthesis得範本來修改，並未成功。
 # ntuthesis
 
 
@@ -15,7 +15,7 @@
 
 ## 安裝
 ```r
-devtools::install_github("liao961120/ntuthesis")
+devtools::install_github("geant44/ntuthesis")
 ```
 
 ## 使用
