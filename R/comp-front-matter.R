@@ -30,6 +30,13 @@ comp_front <- function() {
   } else {
     system2("xelatex", args = fp, stdout = FALSE)
   }
+    fp2 <- "recommendationletter.tex"
+  if (!file.exists(fp2)) {
+    abort(paste0('`', fp2,'` ',
+                 'not in folder `front_matter`.'))
+  } else {
+    system2("xelatex", args = fp2, stdout = FALSE)
+  }
 }
 
 
