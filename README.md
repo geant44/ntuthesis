@@ -3,7 +3,7 @@
 # ntuthesis
 
 
-這是國立臺灣大學的論文模板，
+這是來自於國立臺灣大學的論文模板，但是想嘗試改為長庚大學的模板，
 基於 [bookdown](https://github.com/rstudio/bookdown) 的架構。為了方便使用，將此模板打包成 R Package，方便使用者下載及使用內建函數。
 
 
