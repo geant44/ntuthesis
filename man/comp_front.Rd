@@ -4,7 +4,14 @@
 \alias{comp_front}
 \title{Compile front matter to PDF}
 \usage{
-comp_front()
+comp_front(use_docker = FALSE, template = c("ntu"))
+}
+\arguments{
+\item{use_docker}{Logical. Whether to use tinytex docker
+to compile PDF.}
+
+\item{template}{String. The template used. Defaults to
+\code{ntu}.}
 }
 \description{
 To use this function, one needs to be in the
@@ -13,6 +20,6 @@ To use this function, one needs to be in the
 \examples{
 \dontrun{
 setwd("~/my-thesis")
-comp_front()
+comp_front(template = 'ntu')
 }
 }
